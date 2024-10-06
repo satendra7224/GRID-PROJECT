@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(6,100px);
+    grid-template-rows: 100px 100px;
+    grid-template-areas: 
+    "box3 box4 box5 box6 box7 box8"
+    "box1 box2 box5 box6 box7 box8";
+    gap: 20px;
+    border: 2px solid black;
+    padding: 20px;
+
+}
+.box{
+    border-radius: 10px;
+    background-color: black;
+}
+.box1{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: box1;
+    color: white;
+}
+.box2{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: box2;
+    background-color: lightgrey;
+}
+.box3{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: box3;
+    color: white;
+}
+.box4{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: box4;
+    background-color: lightgrey;
+}
+.box5{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: box5;
+    height: 100px;
+    color: white;
+}
+.box6{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: box6;
+    height: 100px;
+    background-color: lightgrey;
+}
+.box7{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: box7;
+    height: 100px;
+    color: white;
+}
+.box8{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: box8;
+    height: 100px;
+    background-color: lightgrey;
+}
